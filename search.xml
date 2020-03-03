@@ -3,7 +3,9 @@
   <entry>
     <title>uni-app组件</title>
     <url>/sunlei-1997.github.io/2020/03/03/uni-app%E7%BB%84%E4%BB%B6/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="uni-app组件"><a href="#uni-app组件" class="headerlink" title="uni-app组件"></a>uni-app组件</h1><h2 id="1-text文本组件"><a href="#1-text文本组件" class="headerlink" title="1.text文本组件"></a>1.text文本组件</h2><p><font size="4">在pages的vue文件内, 每个view内放一个text标签实现换行， selectable实现选中文字，space控制空格间隔。</font></p>
+<p><a href="https://gitee.com/heart_perturbation/sxblogimg/raw/master/img/20200303193645.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://gitee.com/heart_perturbation/sxblogimg/raw/master/img/20200303193645.png" class="lazyload"></a><br><a href="https://gitee.com/heart_perturbation/sxblogimg/raw/master/img/20200303193708.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://gitee.com/heart_perturbation/sxblogimg/raw/master/img/20200303193708.png" class="lazyload"></a></p>
+]]></content>
       <categories>
         <category>前端框架</category>
       </categories>
