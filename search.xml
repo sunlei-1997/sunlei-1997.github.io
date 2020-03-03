@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>uni-app介绍、部署、目录结构</title>
+    <url>/sunlei-1997.github.io/2020/03/03/uni-app%E4%BB%8B%E7%BB%8D%E3%80%81%E9%83%A8%E7%BD%B2%E3%80%81%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<h1 id="uni-app使用"><a href="#uni-app使用" class="headerlink" title="uni-app使用"></a>uni-app使用</h1><p>工具：hxbuilder,微信开发者工具  </p>
+<h2 id="1-uni目录和开发规范"><a href="#1-uni目录和开发规范" class="headerlink" title="1. uni目录和开发规范"></a>1. uni目录和开发规范</h2><h2 id="2-global配置文件"><a href="#2-global配置文件" class="headerlink" title="2. global配置文件"></a>2. global配置文件</h2><ul>
+<li>pages.json文件的globalstyle控制全局，效果被单个的page覆盖。<br><a href="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303165035.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303165035.png" class="lazyload"></a></li>
+<li>新建pages页面，在json pages里配置path路径，是首页的话放在数组的第一位置,配置style是页面样式，h5是网页端使用的。<br><a href="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303165339.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303165339.png" class="lazyload"></a></li>
+<li>配置 tabbar实现跳转<br>在pages.json里，和pages同级，配置tabbar, 在static下添加图标，list数组至少包含两个对象，最多五个，每个对象在List配置对应页面的路径。<br><a href="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303165807.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303165807.png" class="lazyload"></a><br><a href="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303165941.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303165941.png" class="lazyload"></a><br><a href="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303170015.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303170015.png" class="lazyload"></a><br><a href="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303170032.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303170032.png" class="lazyload"></a></li>
+<li>condition启动模式配置实现跳转<br>配置在pages.json文件，与tabbar同级别，生成新的页面在微信工具点击打开。<br><a href="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303164707.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303164707.png" class="lazyload"></a><br><a href="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303170428.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303170428.png" class="lazyload"></a><br><a href="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303170356.png" data-fancybox="group" data-caption class="fancybox"><img alt title data-src="https://raw.githubusercontent.com/sunlei-1997/my-image/master/img20200303170356.png" class="lazyload"></a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>前端框架</category>
+      </categories>
+      <tags>
+        <tag>uni-app</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>helloWorld</title>
     <url>/sunlei-1997.github.io/2020/03/01/helloWorld/</url>
     <content><![CDATA[]]></content>
